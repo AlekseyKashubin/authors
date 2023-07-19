@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.formCard {
+    border: 2px solid grey;
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+}
+
+.btn {
+    padding: .5px;
+    margin: 5px;
+    font-size: 20px;
+    border: solid 1px;
+    background-color: skyblue;
+    width: 100px;
+    height: 40px;
+    color: rgb(253, 255, 255);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.input {
+    align-items: start;
+    width: 400px;
+    font-size: 20px;
+}
+
+h2 {
+    margin-left: 45px;
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.authors {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.authors td,
+.authors th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.authors tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.authors tr:hover {
+    background-color: #ddd;
+}
+
+.authors th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #080d1f;
+    color: white;
+}
